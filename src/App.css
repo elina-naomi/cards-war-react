@@ -1,38 +1,28 @@
-.App {
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+  background-color: #fff;
+  font-size: 50px;
   text-align: center;
+  width: 150px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hearts,
+.diamonds, .res {
+  color: red;
+}
+.clubs,
+.spades {
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gameWrapper {
+  box-sizing: border-box;
+  border: 2px solid #91e26f;
+  width: 600px;
+  min-height: 400px;
+  margin: 25px auto;
 }
